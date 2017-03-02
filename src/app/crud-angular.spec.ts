@@ -7,7 +7,13 @@ describe('CrudAngular', () => {
 
 
 it('Debe aceptar datos en el constructor',() =>{
-  
+   let crud = new CrudAngular ({
+     title:'hola',
+     complete:true
+   });
+   expect(crud.title).toEqual('hola');
+   expect(crud.complete).toEqual(true);
+
 });
 
 });

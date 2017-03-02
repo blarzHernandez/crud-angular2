@@ -5,7 +5,7 @@ title: string;
 complete: boolean = false;
 
 //Constructor
-construct (values: Object= {}){
+constructor (values: Object= {}){
     Object.assign(this, values);
 }
 
@@ -13,7 +13,6 @@ construct (values: Object= {}){
 
 //Instanciamos
 let crud = new CrudAngular({
-    title:'Crud with angular 2',
-    complete:false
-
-});
+  title:'Crud with angular 2',
+    complete:true
+  });
