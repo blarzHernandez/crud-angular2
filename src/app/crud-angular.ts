@@ -12,7 +12,7 @@ constructor (values: Object= {}){
 }
 
 //Instanciamos
-let crud = new CrudAngular({
-  title:'Crud with angular 2',
-    complete:true
-  });
+/*let crud = new CrudAngular({
+    title:'Crud with angular 2',
+    complete:false
+});*/
